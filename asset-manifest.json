@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/updatedUX/static/css/main.ef0529fd.chunk.css",
+    "main.js": "/updatedUX/static/js/main.6ba59f65.chunk.js",
+    "main.js.map": "/updatedUX/static/js/main.6ba59f65.chunk.js.map",
+    "runtime-main.js": "/updatedUX/static/js/runtime-main.e3dd2a93.js",
+    "runtime-main.js.map": "/updatedUX/static/js/runtime-main.e3dd2a93.js.map",
+    "static/js/2.553a96ed.chunk.js": "/updatedUX/static/js/2.553a96ed.chunk.js",
+    "static/js/2.553a96ed.chunk.js.map": "/updatedUX/static/js/2.553a96ed.chunk.js.map",
+    "index.html": "/updatedUX/index.html",
+    "precache-manifest.10004e150d012d9c7c88d63eb77e7237.js": "/updatedUX/precache-manifest.10004e150d012d9c7c88d63eb77e7237.js",
+    "service-worker.js": "/updatedUX/service-worker.js",
+    "static/css/main.ef0529fd.chunk.css.map": "/updatedUX/static/css/main.ef0529fd.chunk.css.map",
+    "static/js/2.553a96ed.chunk.js.LICENSE": "/updatedUX/static/js/2.553a96ed.chunk.js.LICENSE",
+    "static/media/CO2pic.png": "/updatedUX/static/media/CO2pic.43b7121a.png",
+    "static/media/App.css": "/updatedUX/static/media/Earthlybild.6cb72d40.png",
+    "static/media/Glacierpic.png": "/updatedUX/static/media/Glacierpic.d7275976.png",
+    "static/media/Globalwarmingpic.png": "/updatedUX/static/media/Globalwarmingpic.074a57a7.png",
+    "static/media/Polarbearchart.png": "/updatedUX/static/media/Polarbearchart.db6b43bb.png",
+    "static/media/logo.png": "/updatedUX/static/media/logo.5b97d1cd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3dd2a93.js",
+    "static/js/2.553a96ed.chunk.js",
+    "static/css/main.ef0529fd.chunk.css",
+    "static/js/main.6ba59f65.chunk.js"
+  ]
+}
