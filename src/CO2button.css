@@ -1,0 +1,167 @@
+.graphpage {
+  z-index: 2000;
+}
+
+.grafstil {
+  float: right;
+  justify-content: center;
+  margin-right: 30px;
+}
+.grafstil input {
+  width: 100px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.howtograph {
+  position: relative;
+  width: 25%;
+  float: left;
+  margin-left: auto;
+}
+.howtouse {
+  position: relative;
+  margin-left: auto;
+  margin-top: 130px;
+}
+
+.Polarbearchart img {
+  margin-top: 10%;
+  width: 25%;
+  height: 40%;
+  float: left;
+  margin-right: 200px;
+}
+
+.boldtext {
+  font-weight: bold;
+}
+
+.ui.ordered.list {
+  font-size: large;
+}
+.ui.ordered.list li {
+  margin: 10px;
+}
+
+/* The Close button */
+.closebutton {
+  display: block;
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 100%;
+  background: -webkit-linear-gradient(
+      -45deg,
+      transparent 0%,
+      transparent 46%,
+      white 46%,
+      white 56%,
+      transparent 56%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, white 46%, white
+          56%, transparent 56%, transparent 100%);
+  background-color: black;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  position: absolute;
+  margin-top: 30px;
+}
+.closebutton:hover {
+  border-color: #31a196;
+  background-color: #31a196;
+  cursor: pointer;
+}
+
+/* Open button */
+.diagramknapp {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #31a196;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-left: 15%;
+}
+.diagramknapp:hover {
+  background: #808080;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.grafstil2 {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 50px;
+  margin-top: 8%;
+}
+
+.diagramknappGlobal {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #31a196;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin-left: 25%;
+}
+
+.grafstil2 {
+  position: absolute;
+  margin-left: 20%;
+  margin-right: 50px;
+  margin-top: 8%;
+}
+.grafstil3 {
+}
+
+.GlobalChartInfo {
+  font-family: Verdana;
+  text-align: center;
+}
+
+.ChartAndText {
+  text-align: center;
+}
+
+.globalparent {
+  position: relative;
+}
+
+.GlobalChart {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 15%);
+}
+
+.glacierparent {
+  position: relative;
+}
+.GlacierChart {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 15%);
+}
+.GlacierChartInfo {
+  font-family: Verdana;
+  text-align: center;
+}
+.GlacierButton {
+  border: #31a196;
+}

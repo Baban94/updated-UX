@@ -1,38 +1,404 @@
-.App {
-  text-align: center;
+:root {
+  --off-white: #fafafa;
+}
+body {
+  width: 100%;
+}
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-logo {
+  height: 50px;
+  width: 389px;
+  float: left;
+  margin: 1%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-logo:hover {
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav .nav-content {
+  max-width: 100%;
+  padding: 0rem 3rem;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  float: right;
+  color: #31a196;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+
+  color: #31a196;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
 }
+.nav-item2 {
+  display: inline;
+  margin-left: 2rem;
+
+  color: #31a196;
+  font-size: 25px;
+}
+.nav-item2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.Home-section {
+  height: 100vh;
+  background-image: url(Earthlybild.png);
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.Warming-section {
+  height: 100vh;
+  background-color: white;
+}
+
+.Warming-section img {
+  width: 40%;
+  margin-top: 10%;
+  margin-right: 3%;
+  float: right;
+}
+
+#warmingheading {
+  margin-top: -88px;
+  padding-top: 8%;
+  margin-left: 5%;
+}
+
+#warmingheading2 {
+  margin-left: 10%;
+}
+
+#warmingtext {
+  margin-left: 5%;
+  line-height: 1.7rem;
+}
+
+.Glacier-section {
+  height: 100vh;
+  background-color: var(--off-white);
+}
+
+.Glacier-section img {
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 0%;
+  float: left;
+}
+.GlacierTextSection {
+  margin-top: 5%;
+  width: 50%;
+  float: right;
+  margin-right: 5%;
+}
+
+#glacierHeading {
+  padding-top: 10%;
+}
+
+#glacierText {
+  line-height: 1.5rem;
+  margin-bottom: 5%;
+}
+
+#glacierHeading2 {
+  float: right;
+  margin-right: 15%;
+}
+
+.CO2-section {
+  height: 100vh;
+  background-color: white;
+}
+.CO2-section img {
+  width: 30%;
+  float: right;
+  padding-top: 10%;
+  margin-right: 10%;
+}
+
+#CO2heading {
+  padding-top: 8%;
+  margin-left: 5%;
+}
+
+#CO2text {
+  width: 40%;
+  margin-top: 0%;
+  margin-left: 5%;
+  line-height: 1.5rem;
+}
+
+.Quiz-section2 {
+  background-color: var(--off-white);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.quizheading {
+  text-align: center;
+  font-size: 4rem;
+}
+.startbutton {
+  margin-left: 50%;
+  position: center;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #31a196;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.startbutton:hover {
+  background: #808080;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.ItalicText {
+  font-style: italic;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+h2,
+h3 {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: verdana;
+  font-size: 0.75rem;
+}
+li {
+  font-family: verdana;
+}
+
+/*:root {
+  --off-white: #fafafa;
+}
+
+body {
+  width: 100%;
+}
+
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+  height: 50px;
+  width: 389px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 100%;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  float: right;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+
+  color: #31a196;
+  font-size: 25px;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+.nav-item2 {
+  display: inline;
+  margin-left: 2rem;
+
+  color: #80abbc;
+  font-size: 25px;
+}
+.nav-item2:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.Home-section {
+  height: 100vh;
+  background-image: url(Earthlybild.png);
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.Warming-section {
+  height: 100vh;
+  background-color: white;
+}
+
+.Warming-section img {
+  width: 40%;
+  margin-top: 10%;
+  margin-right: 3%;
+  float: right;
+}
+
+#warmingheading {
+  margin-top: -88px;
+  padding-top: 10%;
+  margin-left: 20%;
+}
+
+#warmingheading2 {
+  margin-left: 10%;
+}
+
+#warmingtext {
+  margin-left: 5%;
+}
+
+.Glacier-section {
+  height: 100vh;
+  background-color: var(--off-white);
+}
+
+.Glacier-section img {
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 0%;
+  float: left;
+}
+
+#glacierHeading {
+  float: right;
+  margin-right: 25%;
+  padding-top: 10%;
+}
+#glacierText {
+  float: right;
+  width: 50%;
+  margin-right: 5%;
+}
+#glacierHeading2 {
+  float: right;
+  margin-right: 20%;
+}
+
+.CO2-section {
+  height: 100vh;
+  background-color: white;
+}
+.CO2-section img {
+  width: 30%;
+  float: right;
+  padding-top: 10%;
+  margin-right: 10%;
+}
+
+#CO2heading {
+  padding-top: 10%;
+  margin-left: 5%;
+}
+
+#CO2text {
+  width: 40%;
+  margin-top: 0%;
+  margin-left: 5%;
+}
+
+.Quiz-section2 {
+  background-color: var(--off-white);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.quizheading {
+  text-align: center;
+  font-size: 4rem;
+}
+.startbutton {
+  margin-left: 50%;
+  position: center;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #31a196;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.startbutton:hover {
+  background: #808080;
+  letter-spacing: 1px;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.BoldText {
+  font-weight: bold;
+}
+
+.ItalicText {
+  font-style: italic;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+h1,
+h2,
+h3 {
+  font-family: "Raleway";
+}
+
+p {
+  font-family: verdana;
+}
+li {
+  font-family: verdana;
+}
+*/
